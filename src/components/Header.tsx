@@ -1,7 +1,7 @@
 import { Github, Linkedin } from "lucide-react";
 import { Link } from "react-router";
 
-export function Header() {
+export default function Header() {
     return (
         <>
             <div className="navbar bg-base-100 shadow-sm">
@@ -11,7 +11,7 @@ export function Header() {
                     </Link>
                 </div>
                 <div className="navbar-center">
-                    <ul className="menu menu-horizontal">
+                    <ul className="menu menu-horizontal ">
                         <li>
                             <Link to="/">
                                 <a>Home</a>
