@@ -5,10 +5,10 @@ export function Hero() {
                 <h1 className="font-bold text-6xl">Tadd Trumbull</h1>
             </div>
             <div>
-                <p className="text-xl opacity-40">Aspiring Software Engineer</p>
+                <p className="text-xl opacity-50">Aspiring Software Engineer</p>
             </div>
             <div>
-                <p className="text-xl opacity-40">
+                <p className="text-xl opacity-50">
                     Building all sorts of things with many modern technologies.
                     passionate about continuous learning and great user
                     experience.
