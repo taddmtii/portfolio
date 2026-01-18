@@ -15,8 +15,8 @@ function App() {
                     <Header />
                 </div>
                 <div className="flex w-screen items-center justify-center">
-                    <div className="flex flex-col w-[80vw] items-center">
-                        <div className="flex flex-row">
+                    <div className="flex flex-col w-full max-w-6xl mx-auto px-6 py-20">
+                        <div className="flex flex-col md:flex-row gap-12 items-start">
                             <Hero />
                             <TerminalCard />
                         </div>
