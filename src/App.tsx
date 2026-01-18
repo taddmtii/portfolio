@@ -5,13 +5,18 @@ import { Hero } from "./components/Hero";
 import { Divider } from "./components/Divider";
 import AboutMe from "./components/AboutMe";
 import Experience from "./components/Experience";
+import { TerminalCard } from "./components/TerminalCard";
 
 function App() {
     return (
         <>
             <BrowserRouter>
                 <Header />
-                <Hero />
+                <div className="flex flex-row">
+                    <Hero />
+                    <TerminalCard />
+                </div>
+
                 <Divider />
                 <AboutMe />
                 <Divider />

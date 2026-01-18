@@ -8,7 +8,7 @@ export function Hero() {
             <div>
                 <p className="text-xl opacity-50">
                     Building all sorts of things with many modern technologies.
-                    passionate about continuous learning and great user
+                    Passionate about continuous learning and great user
                     experience.
                 </p>
             </div>
