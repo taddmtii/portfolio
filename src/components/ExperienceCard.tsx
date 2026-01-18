@@ -15,9 +15,9 @@ export default function ExperienceCard({
 }: ExperienceCardProps) {
     return (
         <>
-            <div className="flex p-10 flex-row shadow-md bg-[#252839] rounded-2xl w-[100%] h-60">
-                <div className="opacity-50">{dateRange}</div>
-                <div className="flex flex-col gap-3 pl-25">
+            <div className="flex p-10 flex-row shadow-md bg-[#252839] rounded-2xl w-full h-60">
+                <div className="opacity-50 w-20 shrink-0">{dateRange}</div>
+                <div className="flex flex-col gap-3 pl-15">
                     <div>
                         <div className="font-bold text-lg">{positionName}</div>
                         <div className="opacity-50 text-accent">{company}</div>

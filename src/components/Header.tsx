@@ -4,7 +4,7 @@ import { Link } from "react-router";
 export default function Header() {
     return (
         <>
-            <div className="navbar bg-background/80 backdrop-blur-sm shadow-sm">
+            <div className="navbar bg-background/80 backdrop-blur-md shadow-sm">
                 <div className="navbar-start">
                     <Link to="/">
                         <a className="btn btn-ghost text-xl">TT</a>
