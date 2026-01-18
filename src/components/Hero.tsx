@@ -1,7 +1,16 @@
+import { Typewriter } from "react-simple-typewriter";
+
 export function Hero() {
     return (
         <div className="flex flex-col gap-7 w-lg h-lg">
-            <h1 className="font-bold text-6xl">Tadd Trumbull</h1>
+            <div className="font-bold text-5xl">
+                <Typewriter
+                    words={["Hi, I'm Tadd."]}
+                    cursor
+                    typeSpeed={125}
+                    cursorBlinking={true}
+                />
+            </div>
             <div>
                 <p className="text-xl opacity-50">Aspiring Software Engineer</p>
             </div>

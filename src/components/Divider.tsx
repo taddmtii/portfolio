@@ -1,3 +1,7 @@
 export function Divider() {
-    return <div className="divider"></div>;
+    return (
+        <>
+            <div className="divider"></div>
+        </>
+    );
 }
