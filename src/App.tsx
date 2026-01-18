@@ -1,14 +1,22 @@
 import "./App.css";
-import AboutMe from "./components/AboutMe";
 import Header from "./components/Header";
 import { BrowserRouter } from "react-router";
+import { Hero } from "./components/Hero";
+import { Divider } from "./components/Divider";
+import AboutMe from "./components/AboutMe";
+import Experience from "./components/Experience";
 
 function App() {
     return (
         <>
             <BrowserRouter>
                 <Header />
+                <Hero />
+                <Divider />
                 <AboutMe />
+                <Divider />
+                <Experience />
+                <Divider />
             </BrowserRouter>
         </>
     );

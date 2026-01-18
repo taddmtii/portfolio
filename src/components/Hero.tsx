@@ -1,9 +1,7 @@
 export function Hero() {
     return (
-        <div className="flex flex-col gap-4 w-lg h-lg">
-            <div>
-                <h1 className="font-bold text-6xl">Tadd Trumbull</h1>
-            </div>
+        <div className="flex flex-col gap-7 w-lg h-lg">
+            <h1 className="font-bold text-6xl">Tadd Trumbull</h1>
             <div>
                 <p className="text-xl opacity-50">Aspiring Software Engineer</p>
             </div>
