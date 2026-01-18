@@ -12,7 +12,9 @@ function App() {
     return (
         <>
             <BrowserRouter>
-                <Header />
+                <div className="sticky top-0 left-0 w-full">
+                    <Header />
+                </div>
                 <div className="flex w-screen justify-center">
                     <div className="flex flex-col w-[80vw] items-center">
                         <div className="flex flex-row">
@@ -22,20 +24,20 @@ function App() {
                         <Divider />
                         <AboutMe />
                         <Divider />
-                        <Experience />
-                        <div className="flex flex-col gap-8 justify-center">
+                        <div className="flex flex-col gap-8">
+                            <Experience />
                             <ExperienceCard
-                                dateRange="March 2025 - Present"
+                                dateRange="2025 - Present"
                                 positionName="Scholar Intern"
                                 company="Unum"
-                                description="Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum "
+                                description="Built data automation pipeline with Python and SQL to streamline business operations for 700+ users. Focused on extracting company data from Teradata and constructed several GraphQL queries."
                                 technologies={["Python", "SQL", "GraphQL"]}
                             />
                             <ExperienceCard
-                                dateRange="June 2024 - August 2024"
+                                dateRange="2024"
                                 positionName="Software Engineer Intern"
                                 company="Southern Adventist University"
-                                description="Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum "
+                                description="Reengineered an internal faculty planning tool using ASP.NET Core Blazor, modernizing both the backend architecture and UI/UX. Gained hands-on experience with full-stack development using C# and server-side rendering."
                                 technologies={[
                                     "C#",
                                     "ASP.NET",
