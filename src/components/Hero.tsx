@@ -4,7 +4,7 @@ import avatar from "../assets/avatar.png";
 
 export function Hero() {
     return (
-        <div className="flex flex-col gap-7">
+        <div className="flex flex-col gap-7 px-5">
             <div className="flex items-center gap-7">
                 <div className="avatar">
                     <div className="ring-white ring-offset-base-100 w-24 rounded-full ring-2 ring-offset-2">
