@@ -20,7 +20,7 @@ export function Hero() {
                     />
                 </div>
             </div>
-            <div className="flex items-center gap-4">
+            <div className="flex items-center gap-2">
                 <p className="text-xl opacity-50">Aspiring Software Engineer</p>
                 <div>
                     <a target="_blank" href="https://github.com/taddmtii">
