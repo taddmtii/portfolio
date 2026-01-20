@@ -2,7 +2,7 @@ export default function AboutMe() {
     return (
         <>
             <div className="w-full">
-                <div className="flex flex-col gap-8 w-200">
+                <div className="flex flex-col md:w-200 gap-8 w-100">
                     <h1 className="font-bold text-3xl">About</h1>
                     <p className="opacity-50">
                         Hey! My name is Tadd and I am a passionate developer who

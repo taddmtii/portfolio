@@ -17,7 +17,7 @@ export default function Experience() {
                     positionName="Software Engineer Intern"
                     company="Southern Adventist University"
                     description="Reengineered an internal faculty planning tool using ASP.NET Core Blazor, modernizing both the backend architecture and UI/UX. Gained hands-on experience with full-stack development using C# and server-side rendering."
-                    technologies={["C#", "ASP.NET", "SQL", "HTML", "CSS"]}
+                    technologies={["C#", "ASP.NET", "SQL"]}
                 />
             </div>
         </>

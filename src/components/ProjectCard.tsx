@@ -7,7 +7,7 @@ interface ProjectCardProps {
     description: string;
 }
 
-export default function Projects({
+export default function ProjectCard({
     name,
     thumbnail,
     link,
