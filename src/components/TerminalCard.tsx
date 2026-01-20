@@ -26,6 +26,15 @@ export function TerminalCard() {
                 <pre data-prefix=">" className="text-success">
                     <code>cups of coffee today: 3</code>
                 </pre>
+                <pre data-prefix="$">
+                    <code>status</code>
+                </pre>
+                <pre data-prefix=">" className="text-success">
+                    <code>building: something cool</code>
+                </pre>
+                <pre data-prefix=">" className="text-success">
+                    <code>learning: new web technologies</code>
+                </pre>
             </div>
         </>
     );
