@@ -1,7 +1,8 @@
 @import "tailwindcss";
 
-:root {
+.dark {
     background-color: #1e2234;
+    color: #e5e7eb;
 }
 
 h1 {
