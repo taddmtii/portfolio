@@ -22,17 +22,21 @@ export function Hero() {
             </div>
             <div className="flex items-center gap-4">
                 <p className="text-xl opacity-50">Aspiring Software Engineer</p>
-                <div className="btn btn-ghost">
+                <div>
                     <a target="_blank" href="https://github.com/taddmtii">
-                        <Github size={20} />
+                        <button className="btn btn-ghost">
+                            <Github size={20} />
+                        </button>
                     </a>
                 </div>
-                <div className="btn btn-ghost">
+                <div>
                     <a
                         target="_blank"
                         href="https://www.linkedin.com/in/tadd-trumbull-ii-7228a2300/"
                     >
-                        <Linkedin size={20} />
+                        <button className="btn btn-ghost">
+                            <Linkedin size={20} />
+                        </button>
                     </a>
                 </div>
             </div>

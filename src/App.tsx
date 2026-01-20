@@ -4,6 +4,7 @@ import { Divider } from "./components/Divider";
 import AboutMe from "./components/AboutMe";
 import Experience from "./components/Experience";
 import { TerminalCard } from "./components/TerminalCard";
+import Projects from "./components/Projects";
 
 function App() {
     return (
@@ -18,6 +19,8 @@ function App() {
                     <AboutMe />
                     <Divider />
                     <Experience />
+                    <Divider />
+                    <Projects />
                     <Divider />
                 </div>
             </div>
