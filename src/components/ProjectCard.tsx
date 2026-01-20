@@ -15,10 +15,10 @@ export default function ProjectCard({
 }: ProjectCardProps) {
     return (
         <>
-            <div className="card bg-base-100 w-96 shadow-sm">
+            <div className="card bg-base-100 md:w-96 w-full shadow-sm">
                 <figure className="h-50">
                     <img
-                        className="min-h-60 max-h-60 min-w-100 max-w-100"
+                        className="md:min-h-60 md:max-h-60 md:min-w-100 md:max-w-100 max-h-100"
                         src={thumbnail}
                         alt={name}
                     />

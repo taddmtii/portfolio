@@ -5,7 +5,7 @@ export function Projects() {
         <>
             <div className="flex flex-col gap-8">
                 <h1 className="font-bold text-3xl">Projects</h1>
-                <div className="flex flex-col md:flex-row gap-8 justify-evenly">
+                <div className="flex flex-col items-center md:flex-row gap-8 md:justify-evenly">
                     <ProjectCard
                         name="ArrayViz"
                         thumbnail="https://github.com/user-attachments/assets/fdf39753-8bc7-40fb-8337-0016d53ad0bc"
@@ -19,7 +19,7 @@ export function Projects() {
                         description="A 2D platformer game made with Godot Engine and GDScript, a scripting language similar to Python and Typescript."
                     />
                 </div>
-                <div className="flex flex-col md:flex-row gap-8 justify-evenly">
+                <div className="flex flex-col items-center md:flex-row gap-8 md:justify-evenly">
                     <ProjectCard
                         name="FlowFinder"
                         thumbnail="https://github.com/user-attachments/assets/2a6b7c57-8fd1-4d87-8a49-074d03516399"
