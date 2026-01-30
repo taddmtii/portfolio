@@ -33,7 +33,7 @@ export function TerminalCard() {
           <code>building: <a href="https://github.com/taddmtii/Cadence" target="_blank">Cadence</a></code>
         </pre>
         <pre data-prefix=">" className="text-success">
-          <code>learning: NestJS + Prisma + Postgres</code>
+          <code>learning: NestJS + Prisma</code>
         </pre>
       </div>
     </>
