@@ -4,7 +4,7 @@ import avatar from "../assets/avatar.png";
 
 export function Hero() {
   return (
-    <div className="flex flex-col gap-7 md:px-5">
+    <div className="flex flex-col gap-7">
       <div className="flex items-center gap-7">
         <div className="avatar">
           <div className="ring-white ring-offset-base-100 md:w-24 w-20 rounded-full ring-2 ring-offset-2">
@@ -56,13 +56,12 @@ export function Hero() {
         </p>
 
       </div>
-      <div className="flex flex-row gap-2">
+      {/*<div className="flex flex-row gap-2">
         <div className="badge badge-md badge-accent">Python</div>
         <div className="badge badge-md badge-accent">React</div>
         <div className="badge badge-md badge-accent">TypeScript</div>
-        <div className="badge badge-md badge-accent">NestJs</div>
         <div className="badge badge-md badge-accent">Next.Js</div>
-      </div>
+      </div>*/}
     </div>
   );
 }
