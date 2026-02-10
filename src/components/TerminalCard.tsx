@@ -1,7 +1,7 @@
 export function TerminalCard() {
   return (
     <>
-      <div className="mockup-code bg-primary text-primary-content w-full h-95 max-w-xl">
+      <div className="mockup-code bg-sky-950 text-primary-content w-full h-95 max-w-xl">
         <pre data-prefix="$">
           <code>name</code>
         </pre>

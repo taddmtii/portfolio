@@ -15,7 +15,7 @@ export default function ExperienceCard({
 }: ExperienceCardProps) {
   return (
     <>
-      <div className="flex p-10 flex-row border border-[#323544] shadow-md bg-white rounded-2xl w-full md:h-60 h-85">
+      <div className="flex p-10 flex-row shadow-lg bg-white rounded-2xl w-full md:h-60 h-85">
         <div className="hidden md:block opacity-50 w-20 shrink-0">
           {dateRange}
         </div>

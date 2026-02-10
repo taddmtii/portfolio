@@ -10,7 +10,7 @@ export default function Contact() {
           I'm always interested in hearing about new opportunities,
           collaborations, or just chatting about tech.
         </p>
-        <div className="flex md:p-10 p-6 flex-col border border-[#323544] justify-between gap-2 shadow-md bg-white rounded-2xl w-[70%]">
+        <div className="flex md:p-10 p-6 flex-col justify-between gap-2 shadow-lg bg-white rounded-2xl w-[70%]">
           <div className="flex justify-evenly flex-col md:flex-row md:gap-8 gap-2">
             <a
               className="flex p-5 hover:cursor-pointer duration-300 ease-in border border-[#323544] shadow-md bg-white hover:bg-[#3dd4ce] rounded-2xl md:w-[40%] w-full h-20"
