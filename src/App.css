@@ -1,6 +1,9 @@
 @import "tailwindcss";
-@plugin "daisyui";
+
+@plugin "daisyui" {
+  themes: light --default, light --preferslight;
+}
 
 li {
-    color: #8b8d98;
+  color: #8b8d98;
 }
