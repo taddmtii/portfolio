@@ -1,5 +1,9 @@
 @import "tailwindcss";
 
+:root {
+  color-scheme: light only;
+}
+
 @keyframes gradient-shift {
   0% {
     background-position: 0% 50%;
