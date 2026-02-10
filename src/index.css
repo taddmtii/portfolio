@@ -1,10 +1,25 @@
 @import "tailwindcss";
 
-.dark {
-    background-color: #1e2234;
-    color: #e5e7eb;
+@keyframes gradient-shift {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
 }
 
-h1 {
-    color: #e5e7eb;
+.animated-gradient-bg {
+  background: linear-gradient(135deg, #bfdbfe, #93c5fd, #e0f2fe, #7dd3fc);
+  background-size: 200% 200%;
+  animation: gradient-shift 8s ease infinite;
+}
+
+body {
+  color: #1e2234;
 }
