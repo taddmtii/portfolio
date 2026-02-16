@@ -1,6 +1,6 @@
 import { Github, Linkedin } from "lucide-react";
 import { Typewriter } from "react-simple-typewriter";
-import avatar from "../assets/avatar.png";
+import avatar from "../assets/IMG_5451.jpeg";
 
 export function Hero() {
   return (
