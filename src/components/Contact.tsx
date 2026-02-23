@@ -1,5 +1,5 @@
 import { FileUser, Github, Linkedin, Mail } from "lucide-react";
-import resume from "../assets/tadd_trumbull_ii_resume.pdf";
+import resume from "../assets/tadd_trumbull_resume.pdf";
 
 export default function Contact() {
   return (

@@ -7,9 +7,9 @@ export function Projects() {
         <h1 className="font-bold text-3xl">Projects</h1>
         <div className="flex flex-col items-center md:flex-row gap-8 md:justify-evenly">
           <ProjectCard
-            name="CodeLens"
+            name="Code Visualizer"
             thumbnail="https://github.com/user-attachments/assets/fdf39753-8bc7-40fb-8337-0016d53ad0bc"
-            link="https://github.com/taddmtii/CodeLens"
+            link="https://github.com/taddmtii/CodeVisualizer"
             description="
             General code visualization tool with emphasis on array operations utilizing custom made language PyViz. Created primarily using React and Typescript."
           />
