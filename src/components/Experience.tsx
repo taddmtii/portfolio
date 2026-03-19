@@ -9,14 +9,12 @@ export default function Experience() {
                     dateRange="2025 - Present"
                     positionName="Scholar Intern"
                     company="Unum"
-                    description="Built data automation pipeline with Python and SQL to streamline business operations for 700+ users. Focused on extracting company data from Teradata and constructed several GraphQL queries."
                     technologies={["Python", "SQL", "GraphQL"]}
                 />
                 <ExperienceCard
                     dateRange="2024"
                     positionName="Software Engineer Intern"
                     company="Southern Adventist University"
-                    description="Reengineered an internal faculty planning tool using ASP.NET Core Blazor, modernizing both the backend architecture and UI/UX. Gained hands-on experience with full-stack development using C# and server-side rendering."
                     technologies={["C#", "ASP.NET", "SQL"]}
                 />
             </div>

@@ -2,7 +2,6 @@ interface ExperienceCardProps {
   dateRange: string;
   positionName: string;
   company: string;
-  description: string;
   technologies: string[];
 }
 
@@ -10,7 +9,6 @@ export default function ExperienceCard({
   dateRange,
   positionName,
   company,
-  description,
   technologies,
 }: ExperienceCardProps) {
   return (
