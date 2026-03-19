@@ -1,7 +1,7 @@
 export function TerminalCard() {
   return (
     <>
-      <div className="mockup-code bg-sky-950 text-primary-content w-full h-95 max-w-xl">
+      <div className="mockup-code bg-sky-950 text-primary-content w-full h-70 max-w-xl">
         <pre data-prefix="$">
           <code>name</code>
         </pre>
@@ -31,21 +31,6 @@ export function TerminalCard() {
         </pre>
         <pre data-prefix=">" className="text-success">
           <code>Full-stack developer | Coffee enthusiast</code>
-        </pre>
-        <pre data-prefix="$">
-          <code>status</code>
-        </pre>
-        <pre data-prefix=">" className="text-success">
-          <code>building: <a href="https://github.com/taddmtii/Cadence" target="_blank">Cadence</a></code>
-        </pre>
-        <pre data-prefix=">" className="text-success">
-          <code>learning: NestJS + Prisma</code>
-        </pre>
-        <pre data-prefix="$">
-          <code>cat coffee.log</code>
-        </pre>
-        <pre data-prefix=">" className="text-success">
-          <code>cups of coffee today: 3</code>
         </pre>
       </div>
     </>

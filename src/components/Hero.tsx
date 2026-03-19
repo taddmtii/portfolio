@@ -49,19 +49,7 @@ export function Hero() {
           experience.
         </p>
         <br />
-        <p className="md:text-xl text-lg opacity-50">
-          In my free time, you'll find me playing guitar,
-          working on my senior project, programming something new,
-          studying DSA, working out, or playing pickleball.
-        </p>
-
       </div>
-      {/*<div className="flex flex-row gap-2">
-        <div className="badge badge-md badge-accent">Python</div>
-        <div className="badge badge-md badge-accent">React</div>
-        <div className="badge badge-md badge-accent">TypeScript</div>
-        <div className="badge badge-md badge-accent">Next.Js</div>
-      </div>*/}
     </div>
   );
 }
