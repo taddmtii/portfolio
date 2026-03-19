@@ -15,7 +15,7 @@ export default function ExperienceCard({
 }: ExperienceCardProps) {
   return (
     <>
-      <div className="flex p-10 flex-row shadow-lg bg-white rounded-2xl w-full md:h-60 h-85">
+      <div className="flex p-10 flex-row shadow-lg bg-white rounded-2xl w-full md:h-45">
         <div className="hidden md:block opacity-50 w-20 shrink-0">
           {dateRange}
         </div>
@@ -24,7 +24,6 @@ export default function ExperienceCard({
             <div className="font-bold text-lg">{positionName}</div>
             <div className="opacity-50 text-accent">{company}</div>
           </div>
-          <div className="opacity-50">{description}</div>
           <div className="flex flex-row gap-2">
             {technologies.map((tech) => {
               return (
