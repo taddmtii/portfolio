@@ -32,9 +32,7 @@ export default function Contact() {
                 <Linkedin size={20} />
                 <div className="flex flex-col">
                   <p>Linkedin</p>
-                  <p className="text-sm opacity-50">
-                    @tadd-trumbull-ii
-                  </p>
+                  <p className="text-sm opacity-50">@tadd-trumbull-ii</p>
                 </div>
               </div>
             </a>
@@ -49,9 +47,7 @@ export default function Contact() {
                 <Github size={20} />
                 <div className="flex flex-col">
                   <p>GitHub</p>
-                  <p className="text-sm opacity-50">
-                    @taddmtii
-                  </p>
+                  <p className="text-sm opacity-50">@taddmtii</p>
                 </div>
               </div>
             </a>
@@ -65,9 +61,7 @@ export default function Contact() {
                 <FileUser size={20} />
                 <div className="flex flex-col">
                   <p>Resume</p>
-                  <p className="text-sm opacity-50">
-                    Download Resume
-                  </p>
+                  <p className="text-sm opacity-50">Download Resume</p>
                 </div>
               </div>
             </a>
