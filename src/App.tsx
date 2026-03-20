@@ -1,6 +1,5 @@
 import "./App.css";
 import { Hero } from "./components/Hero";
-import { Divider } from "./components/Divider";
 import Experience from "./components/Experience";
 import { TerminalCard } from "./components/TerminalCard";
 import { Projects } from "./components/Projects";
@@ -15,11 +14,11 @@ function App() {
             <Hero />
             <TerminalCard />
           </div>
-          <Divider />
+          <div className="divider my-20"></div>
           <Experience />
-          <Divider />
+          <div className="divider my-20"></div>
           <Projects />
-          <Divider />
+          <div className="divider my-20"></div>
           <Contact />
         </div>
       </div>
