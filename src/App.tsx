@@ -9,7 +9,7 @@ function App() {
   return (
     <>
       <div className="flex w-full items-center justify-center">
-        <div className="flex flex-col w-full max-w-6xl mx-auto px-6 py-20">
+        <div className="flex flex-col w-full max-w-6xl mx-auto px-12 py-20">
           <div className="flex flex-col md:flex-row gap-12 items-center md:items-start">
             <Hero />
             <TerminalCard />
