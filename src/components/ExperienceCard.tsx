@@ -28,7 +28,10 @@ export default function ExperienceCard({
           <div className="flex flex-row gap-2">
             {technologies.map((tech) => {
               return (
-                <div key={tech} className="badge badge-lg badge-accent">
+                <div
+                  key={tech}
+                  className="badge badge-md badge-outline badge-accent"
+                >
                   {tech}
                 </div>
               );
