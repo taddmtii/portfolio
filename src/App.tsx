@@ -8,7 +8,7 @@ import Contact from "./components/Contact";
 function App() {
   return (
     <>
-      <div className="flex w-full items-center justify-center bg-[#1D1D1D]">
+      <div className="flex w-full items-center justify-center bg-[#1d1d1d]">
         <div className="flex flex-col w-full max-w-6xl mx-auto px-8 py-20">
           <div className="flex flex-col md:flex-row gap-12 items-center md:items-start">
             <Hero />

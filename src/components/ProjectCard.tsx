@@ -24,7 +24,7 @@ export default function ProjectCard({
               return (
                 <div
                   key={tech}
-                  className="badge badge-sm badge-outline badge-info"
+                  className="badge badge-sm badge-outline bg-info/10 badge-info"
                 >
                   {tech}
                 </div>

@@ -21,14 +21,13 @@ export default function ExperienceCard({
             <div className="flex items-center gap-2">
               <div className="font-bold text-lg">{positionName}</div>
               <div>•</div>
-              <div>{company}</div>
+              <div className="text-info">{company}</div>
             </div>
-            <div className="flex md:block w-50 shrink-0">
+            <div className="flex md:block w-50 opacity-50 shrink-0">
               <span>{dateRange}</span>
             </div>
             <div className="flex items-center gap-2">
-              <div className="text-muted-foreground">•</div>
-              <div>{description}</div>
+              <div className="flex mt-2 opacity-50">{description}</div>
             </div>
           </div>
           <div className="flex flex-row gap-2">
