@@ -15,20 +15,20 @@ export default function ExperienceCard({
 }: ExperienceCardProps) {
   return (
     <>
-      <div className="flex p-10 flex-row shadow-lg bg-[#2D2D2D] rounded-2xl w-full md:h-45">
+      <div className="flex p-10 flex-row shadow-lg bg-[#252525] rounded-2xl w-full md:h-45">
         <div className="flex flex-col gap-3">
           <div>
             <div className="flex items-center gap-2">
               <div className="font-bold text-lg">{positionName}</div>
-              <div className="text-muted-foreground">•</div>
-              <div className="opacity-50 text-green">{company}</div>
+              <div>•</div>
+              <div>{company}</div>
             </div>
-            <div className="flex md:block opacity-50 w-50 shrink-0">
+            <div className="flex md:block w-50 shrink-0">
               <span>{dateRange}</span>
             </div>
             <div className="flex items-center gap-2">
               <div className="text-muted-foreground">•</div>
-              <div className="opacity-50">{description}</div>
+              <div>{description}</div>
             </div>
           </div>
           <div className="flex flex-row gap-2">
@@ -36,7 +36,7 @@ export default function ExperienceCard({
               return (
                 <div
                   key={tech}
-                  className="badge badge-md badge-outline badge-accent"
+                  className="badge badge-md badge-outline badge-info"
                 >
                   {tech}
                 </div>

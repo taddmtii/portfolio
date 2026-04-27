@@ -15,7 +15,7 @@ export default function ProjectCard({
 }: ProjectCardProps) {
   return (
     <>
-      <div className="card bg-[#2D2D2D] md:w-96 w-full shadow-lg">
+      <div className="card bg-[#252525] md:w-96 w-full shadow-lg">
         <div className="card-body">
           <h2 className="card-title">{name}</h2>
           <p>{description}</p>
@@ -24,7 +24,7 @@ export default function ProjectCard({
               return (
                 <div
                   key={tech}
-                  className="badge badge-sm badge-outline badge-accent"
+                  className="badge badge-sm badge-outline badge-info"
                 >
                   {tech}
                 </div>
@@ -33,7 +33,7 @@ export default function ProjectCard({
           </div>
           <div className="card-actions justify-end">
             <a href={link} target="_blank">
-              <button className="btn btn-accent">
+              <button className="btn btn-info">
                 <ArrowUpRight />
               </button>
             </a>

@@ -21,7 +21,7 @@ export function Hero() {
         </div>
       </div>
       <div className="flex items-center gap-2">
-        <p className="md:text-xl text-lg opacity-50">
+        <p className="md:text-xl text-lg">
           Aspiring Software Engineer
         </p>
         <div>
@@ -43,7 +43,7 @@ export function Hero() {
         </div>
       </div>
       <div>
-        <p className="md:text-xl text-lg opacity-50">
+        <p className="md:text-xl text-lg">
           Building all sorts of things with many modern technologies.
           Passionate about full-stack web development, continuous learning, and great user
           experience.
