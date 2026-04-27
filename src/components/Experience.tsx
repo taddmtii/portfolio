@@ -8,12 +8,14 @@ export default function Experience() {
                 <ExperienceCard
                     dateRange="March 2025 - Present"
                     positionName="Scholar Intern"
+                    description="Maintain and optimize financial platforms while developing automation solutions."
                     company="Unum"
                     technologies={["Python", "SQL", "GraphQL"]}
                 />
                 <ExperienceCard
                     dateRange="June 2024 - August 2024"
                     positionName="Software Engineer Intern"
+                    description="Modernized internal academic platform by refactoring legacy tool."
                     company="Southern Adventist University"
                     technologies={["C#", "ASP.NET", "SQL"]}
                 />

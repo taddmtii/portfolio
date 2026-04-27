@@ -1,6 +1,7 @@
 interface ExperienceCardProps {
   dateRange: string;
   positionName: string;
+  description: string;
   company: string;
   technologies: string[];
 }
@@ -8,6 +9,7 @@ interface ExperienceCardProps {
 export default function ExperienceCard({
   dateRange,
   positionName,
+  description,
   company,
   technologies,
 }: ExperienceCardProps) {
@@ -23,6 +25,10 @@ export default function ExperienceCard({
             </div>
             <div className="flex md:block opacity-50 w-50 shrink-0">
               <span>{dateRange}</span>
+            </div>
+            <div className="flex items-center gap-2">
+              <div className="text-muted-foreground">•</div>
+              <div className="opacity-50">{description}</div>
             </div>
           </div>
           <div className="flex flex-row gap-2">
