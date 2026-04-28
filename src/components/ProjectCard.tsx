@@ -15,7 +15,7 @@ export default function ProjectCard({
 }: ProjectCardProps) {
   return (
     <>
-      <div className="card bg-[#252525] md:w-96 w-full shadow-lg">
+      <div className="card bg-[#252525] md:w-105 w-full shadow-lg">
         <div className="card-body">
           <h2 className="card-title">{name}</h2>
           <p>{description}</p>

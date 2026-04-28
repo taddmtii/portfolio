@@ -21,13 +21,13 @@ export function Hero() {
         </div>
       </div>
       <div className="flex items-center gap-2">
-        <p className="md:text-xl text-lg opacity-50">
+        <p className="md:text-xl text-md opacity-50">
           Aspiring Software Engineer
         </p>
         <div>
           <a target="_blank" href="https://github.com/taddmtii">
-            <button className="btn btn-ghost hover:bg-info">
-              <Github size={20} />
+            <button className="btn w-14 btn-ghost opacity-50 hover:bg-info">
+              <Github />
             </button>
           </a>
         </div>
@@ -36,14 +36,14 @@ export function Hero() {
             target="_blank"
             href="https://www.linkedin.com/in/tadd-trumbull-ii-7228a2300/"
           >
-            <button className="btn btn-ghost hover:bg-info">
-              <Linkedin size={20} />
+            <button className="btn w-14 btn-ghost opacity-50 hover:bg-info">
+              <Linkedin />
             </button>
           </a>
         </div>
       </div>
       <div>
-        <p className="md:text-xl text-lg opacity-50">
+        <p className="md:text-xl md:text-left text-center text-md opacity-50">
           Building all sorts of things with many modern technologies.
           Passionate about full-stack web development, continuous learning, and great user
           experience.

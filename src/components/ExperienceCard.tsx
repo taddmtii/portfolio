@@ -15,11 +15,11 @@ export default function ExperienceCard({
 }: ExperienceCardProps) {
   return (
     <>
-      <div className="flex p-10 flex-row shadow-lg bg-[#252525] rounded-2xl w-full md:h-45">
+      <div className="flex p-10 flex-row w-full md:h-45">
         <div className="flex flex-col gap-3">
           <div>
             <div className="flex items-center gap-2">
-              <div className="font-bold text-lg">{positionName}</div>
+              <div className="font-bold text-2xl">{positionName}</div>
               <div>•</div>
               <div className="text-info">{company}</div>
             </div>
