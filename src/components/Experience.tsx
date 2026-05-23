@@ -5,6 +5,13 @@ export default function Experience() {
         <>
             <div className="flex flex-col gap-8">
                 <h1 className="font-bold text-3xl">Experience</h1>
+                <ExperienceCard 
+                    dateRange="June 2026 - Present"
+                    positionName="Associate Software Engineer" 
+                    description="..."
+                    company="Unum"
+                    technologies={["C#", ".NET"]}
+                />
                 <ExperienceCard
                     dateRange="March 2025 - Present"
                     positionName="Scholar Intern"
@@ -17,7 +24,7 @@ export default function Experience() {
                     positionName="Software Engineer Intern"
                     description="Modernized internal academic platform by refactoring legacy tool."
                     company="Southern Adventist University"
-                    technologies={["C#", "ASP.NET", "SQL"]}
+                    technologies={["C#", ".NET", "SQL"]}
                 />
             </div>
         </>

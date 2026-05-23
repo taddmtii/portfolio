@@ -22,7 +22,7 @@ export function Hero() {
       </div>
       <div className="flex items-center gap-2">
         <p className="md:text-xl text-md opacity-50">
-          Aspiring Software Engineer
+          Software Engineer
         </p>
         <div>
           <a target="_blank" href="https://github.com/taddmtii">
