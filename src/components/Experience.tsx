@@ -6,7 +6,7 @@ export default function Experience() {
             <div className="flex flex-col gap-8">
                 <h1 className="font-bold text-3xl">Experience</h1>
                 <ExperienceCard 
-                    dateRange="June 2026 - Present"
+                    dateRange="June 2026"
                     positionName="Associate Software Engineer" 
                     description="..."
                     company="Unum"

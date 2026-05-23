@@ -24,7 +24,7 @@ export function TerminalCard() {
           <code>ls skills/</code>
         </pre>
         <pre data-prefix=">" className="text-info">
-          <code>React TypeScript Next.js NestJS Python</code>
+          <code>React TypeScript Python C# SQL</code>
         </pre>
         <pre data-prefix="$">
           <code>whoami --verbose</code>
