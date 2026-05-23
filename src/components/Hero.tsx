@@ -20,7 +20,7 @@ export function Hero() {
           />
         </div>
       </div>
-      <div className="flex items-center gap-2">
+      <div className="flex items-center gap-2 md:justify-start justify-center">
         <p className="md:text-xl text-md opacity-50">
           Software Engineer
         </p>
