@@ -1,6 +1,6 @@
 import { Github, Linkedin } from "lucide-react";
 import { Typewriter } from "react-simple-typewriter";
-import avatar from "../assets/IMG_5451.jpeg";
+import avatar from "../assets/IMG_0585.jpg";
 
 export function Hero() {
   return (
@@ -21,9 +21,7 @@ export function Hero() {
         </div>
       </div>
       <div className="flex items-center gap-2 md:justify-start justify-center">
-        <p className="md:text-xl text-md opacity-50">
-          Software Engineer
-        </p>
+        <p className="md:text-xl text-md opacity-50">Software Engineer</p>
         <div>
           <a target="_blank" href="https://github.com/taddmtii">
             <button className="btn w-14 btn-ghost opacity-50 hover:bg-info">
@@ -44,8 +42,8 @@ export function Hero() {
       </div>
       <div>
         <p className="md:text-xl md:text-left text-center text-md opacity-50">
-          Building all sorts of things with many modern technologies.
-          Passionate about full-stack web development, continuous learning, and great user
+          Building all sorts of things with many modern technologies. Passionate
+          about full-stack web development, continuous learning, and great user
           experience.
         </p>
         <br />
