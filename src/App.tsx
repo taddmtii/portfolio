@@ -14,11 +14,11 @@ function App() {
             <Hero />
             <TerminalCard />
           </div>
-          <div className="divider my-20"></div>
+          <div className="divider my-10"></div>
           <Experience />
-          <div className="divider my-20"></div>
+          <div className="divider my-10"></div>
           <Projects />
-          <div className="divider my-20"></div>
+          <div className="divider my-10"></div>
           <Contact />
         </div>
       </div>
