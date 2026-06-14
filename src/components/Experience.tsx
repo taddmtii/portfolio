@@ -8,9 +8,9 @@ export default function Experience() {
         <ExperienceCard
           dateRange="June 2026 - Present"
           positionName="Associate Software Engineer"
-          description="..."
+          description="Developing and maintaining .NET APIs for quote software."
           company="Unum"
-          technologies={["C#", ".NET"]}
+          technologies={["C#", ".NET", "REST APIs"]}
         />
         <ExperienceCard
           dateRange="March 2025 - June 2026"
