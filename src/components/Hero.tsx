@@ -4,7 +4,7 @@ import avatar from "../assets/IMG_0585.jpg";
 
 export function Hero() {
   return (
-    <div className="flex flex-col gap-7">
+    <div className="flex flex-col items-center gap-7">
       <div className="flex items-center gap-7">
         <div className="avatar">
           <div className="ring-white ring-offset-base-100 md:w-24 w-20 rounded-full ring-2 ring-offset-2">
@@ -41,7 +41,7 @@ export function Hero() {
         </div>
       </div>
       <div>
-        <p className="md:text-xl md:text-left text-center text-md opacity-50">
+        <p className="md:text-xl md:max-w-xl text-center text-md opacity-50">
           Building all sorts of things with many modern technologies. Passionate
           about full-stack web development, continuous learning, and great user
           experience.
