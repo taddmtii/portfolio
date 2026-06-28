@@ -15,7 +15,7 @@ export default function ExperienceCard({
 }: ExperienceCardProps) {
   return (
     <>
-      <div className="flex px-10 flex-row shadow-lg rounded-2xl p-6 w-full md:h-45">
+      <div className="flex card px-10 flex-row shadow-lg rounded-2xl p-6 w-full md:h-45">
         <div className="flex flex-col gap-3">
           <div>
             <div className="flex flex-wrap items-center gap-2">
