@@ -12,6 +12,7 @@ export function Projects() {
             description="
             Minimal RISC-V architecture OS build in Rust."
             technologies={["Rust", "ASM"]}
+            inProgress={true}
           />
           <ProjectCard
             name="Minimal HTTP/1.1 Parser"
@@ -19,6 +20,7 @@ export function Projects() {
             description="
             Parses raw HTTP requests over TCP in Go."
             technologies={["Go", "TCP"]}
+            inProgress={true}
           />
         </div>
         <div className="flex flex-col items-center md:flex-row gap-8 md:justify-evenly">
@@ -28,6 +30,7 @@ export function Projects() {
             description="
             General code visualization tool with emphasis on array operations utilizing custom made language."
             technologies={["React", "TypeScript", "Nearley"]}
+            inProgress={false}
           />
           <ProjectCard
             name="Cadence"
@@ -35,6 +38,7 @@ export function Projects() {
             description="
             Full-stack task management, habit tracking, and accountability app."
             technologies={["React", "TypeScript", "PostgreSQL"]}
+            inProgress={false}
           />
         </div>
         <div className="flex flex-col items-center md:flex-row gap-8 md:justify-evenly">
@@ -43,12 +47,14 @@ export function Projects() {
             link="https://github.com/taddmtii/NuclearSimulator"
             description="Simulates nuclear power plant operations using live external API data."
             technologies={["React", "TypeScript"]}
+            inProgress={false}
           />
           <ProjectCard
             name="Samurai Sprint"
             link="https://github.com/taddmtii/Samurai-Sprint"
             description="A 2D platformer passion project where you play as a Samurai."
             technologies={["Godot", "GDScript"]}
+            inProgress={false}
           />
         </div>
         <div className="flex flex-col items-center md:flex-row gap-8 md:justify-evenly">
@@ -57,12 +63,14 @@ export function Projects() {
             link="https://github.com/taddmtii/FlowFinder"
             description="Web application to provide users with insights into their Spotify usage and statistics."
             technologies={["Python", "Flask", "HTML"]}
+            inProgress={false}
           />
           <ProjectCard
             name="CareerConnector"
             link="https://github.com/taddmtii/CareerConnector"
             description="Job listing web application. Create, view, and manage job postings with a user-friendly interface."
             technologies={["C#", "SQLite", "ASP.NET"]}
+            inProgress={false}
           />
         </div>
       </div>
