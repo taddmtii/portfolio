@@ -6,11 +6,11 @@ export function Hero() {
   return (
     <div className="flex flex-col items-center gap-7">
       <div className="flex items-center gap-7">
-        <div className="avatar">
+        {/*<div className="avatar">
           <div className="ring-white ring-offset-base-100 md:w-24 w-20 rounded-full ring-2 ring-offset-2">
             <img src={avatar} alt="My Picture" />
           </div>
-        </div>
+        </div>*/}
         <div className="font-bold md:text-5xl text-4xl">
           <Typewriter
             words={["Hi, I'm Tadd."]}
