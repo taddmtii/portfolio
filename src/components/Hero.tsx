@@ -12,9 +12,9 @@ export function Hero() {
         </div>*/}
         <div className="font-bold md:text-5xl text-4xl">
           <Typewriter
-            words={["Hi, I'm Tadd."]}
+            words={["Hi, I'm Tadd!"]}
             cursor
-            typeSpeed={125}
+            typeSpeed={150}
             cursorBlinking={true}
           />
         </div>

@@ -7,24 +7,6 @@ export function Projects() {
         <h1 className="font-bold text-3xl">Projects</h1>
         <div className="flex flex-col items-center md:flex-row gap-8 md:justify-evenly">
           <ProjectCard
-            name="RISCV-In-Rust"
-            link="https://github.com/taddmtii/riscv-in-rust"
-            description="
-            Minimal RISC-V architecture OS build in Rust."
-            technologies={["Rust", "ASM"]}
-            inProgress={true}
-          />
-          <ProjectCard
-            name="Minimal HTTP/1.1 Parser"
-            link="https://github.com/taddmtii/HttpServerGo"
-            description="
-            Parses raw HTTP requests over TCP in Go."
-            technologies={["Go", "TCP"]}
-            inProgress={true}
-          />
-        </div>
-        <div className="flex flex-col items-center md:flex-row gap-8 md:justify-evenly">
-          <ProjectCard
             name="Code Visualizer"
             link="https://github.com/taddmtii/CodeVisualizer"
             description="
