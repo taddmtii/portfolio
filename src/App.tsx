@@ -8,10 +8,8 @@ function App() {
   return (
     <>
       <div className="flex w-full items-center justify-center">
-        <div className="flex flex-col w-full max-w-6xl mx-auto px-8 py-20">
-          <div className="flex justify-center items-center">
-            <Hero />
-          </div>
+        <div className="flex flex-col w-full max-w-5xl mx-auto px-8 py-20">
+          <Hero />
           <div className="divider my-10"></div>
           <Experience />
           <div className="divider my-10"></div>
