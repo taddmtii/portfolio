@@ -27,7 +27,7 @@ const experiences = [
 export default function Experience() {
   return (
     <section id="experience" className="flex flex-col gap-8">
-      <h2 className="font-bold text-3xl section-label">Experience</h2>
+      <h2 className="font-bold text-3xl">Experience</h2>
       <div className="flex flex-col gap-4">
         {experiences.map((exp) => (
           <ExperienceCard

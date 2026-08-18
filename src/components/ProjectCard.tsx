@@ -13,40 +13,46 @@ export default function ProjectCard({
   link,
   description,
   technologies,
-  inProgress
+  inProgress,
 }: ProjectCardProps) {
   return (
-    <>
-      <div className="card md:w-105 w-full shadow-lg">
-        <div className="card-body">
-          <h2 className="card-title">{name}</h2>
-          <p>{description}</p>
-          <div className="flex flex-col gap-2">
-          <div className="flex flex-row gap-2">
-            {technologies.map((tech) => {
-              return (
-                <div
-                  key={tech}
-                  className="badge badge-sm badge-outline badge-info"
-                >
-                  {tech}
-                </div>
-              );
-            })}
-            </div>
-            {inProgress && (
-              <div className="badge badge-sm badge-outline badge-warning">In Progress</div>
-            )}
-          </div>
-          <div className="card-actions justify-end">
-            <a href={link} target="_blank" rel="noopener noreferrer">
-              <button className="btn btn-info">
-                <ArrowUpRight />
-              </button>
-            </a>
-          </div>
+    <div className="rounded-2xl border border-white/10 bg-white/[0.03] p-6 transition-colors duration-200 hover:border-white/20 md:p-8">
+      <div className="flex flex-col gap-2">
+        <div className="flex items-start justify-between gap-4">
+          <h3 className="text-lg font-semibold text-white/90 md:text-xl">
+            {name}
+          </h3>
+          <a
+            href={link}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="shrink-0 text-white/40 transition-colors duration-200 hover:text-[#60a5fa]"
+            aria-label={`View ${name} on GitHub`}
+          >
+            <ArrowUpRight size={18} />
+          </a>
+        </div>
+
+        <p className="text-sm leading-relaxed text-white/50 md:text-base">
+          {description}
+        </p>
+
+        <div className="mt-2 flex flex-wrap gap-2">
+          {technologies.map((tech) => (
+            <span
+              key={tech}
+              className="rounded-md border border-white/10 bg-white/5 px-2.5 py-1 text-xs font-medium text-white/60"
+            >
+              {tech}
+            </span>
+          ))}
+          {inProgress && (
+            <span className="rounded-md border border-amber-500/30 bg-amber-500/10 px-2.5 py-1 text-xs font-medium text-amber-400">
+              In Progress
+            </span>
+          )}
         </div>
       </div>
-    </>
+    </div>
   );
 }
