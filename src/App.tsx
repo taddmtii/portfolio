@@ -10,7 +10,7 @@ function App() {
     <>
       <Navbar />
       <div className="flex w-full items-center justify-center">
-        <div className="flex flex-col w-full max-w-5xl mx-auto px-8 py-20">
+        <div className="flex flex-col w-full max-w-5xl mx-auto px-8 py-15">
           <Hero />
           <div className="divider my-10"></div>
           <Experience />

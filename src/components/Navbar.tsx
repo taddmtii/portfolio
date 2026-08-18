@@ -20,7 +20,7 @@ export default function Navbar() {
       </a>
 
       <div className="flex items-center gap-4">
-        <div className="flex items-center gap-4">
+        <div className="items-center gap-4 hidden sm:flex">
           {navLinks.map((link) => (
             <a
               key={link.href}
