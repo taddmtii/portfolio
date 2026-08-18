@@ -14,40 +14,32 @@ export default function ExperienceCard({
   technologies,
 }: ExperienceCardProps) {
   return (
-    <>
-      <div className="flex card px-10 flex-row shadow-lg rounded-2xl p-6 w-full md:h-45">
-        <div className="flex flex-col gap-3">
-          <div>
-            <div className="flex flex-wrap items-center gap-2">
-              <div className="font-bold md:text-2xl text-lg">
-                {positionName}
-              </div>
-              <div className="hidden md:block">•</div>
-              <div className="text-info md:inline w-full md:w-auto">
-                {company}
-              </div>
-            </div>
-            <div className="flex md:block w-50 opacity-50 shrink-0">
-              <span>{dateRange}</span>
-            </div>
-            <div className="flex items-center gap-2">
-              <div className="flex mt-2 opacity-50">{description}</div>
-            </div>
-          </div>
-          <div className="flex flex-row gap-2">
-            {technologies.map((tech) => {
-              return (
-                <div
-                  key={tech}
-                  className="badge badge-md badge-outline badge-info"
-                >
-                  {tech}
-                </div>
-              );
-            })}
-          </div>
+    <div className="rounded-2xl border border-white/10 bg-white/[0.03] p-6 transition-colors duration-200 hover:border-white/20 md:p-8">
+      <div className="flex flex-col gap-2">
+        <div className="flex flex-wrap items-center gap-x-3 gap-y-1">
+          <h3 className="text-lg font-semibold text-white/90 md:text-xl">
+            {positionName}
+          </h3>
+          <span className="hidden text-white/20 md:inline">·</span>
+          <span className="text-[#60a5fa]">{company}</span>
+        </div>
+
+        <p className="text-sm text-white/40">{dateRange}</p>
+        <p className="text-sm leading-relaxed text-white/50 md:text-base">
+          {description}
+        </p>
+
+        <div className="mt-2 flex flex-wrap gap-2">
+          {technologies.map((tech) => (
+            <span
+              key={tech}
+              className="rounded-md border border-white/10 bg-white/5 px-2.5 py-1 text-xs font-medium text-white/60"
+            >
+              {tech}
+            </span>
+          ))}
         </div>
       </div>
-    </>
+    </div>
   );
 }

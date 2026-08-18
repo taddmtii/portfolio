@@ -26,23 +26,20 @@ const experiences = [
 
 export default function Experience() {
   return (
-    <>
-      <div className="flex flex-col gap-8">
-        <h1 className="font-bold text-3xl section-label" id="experience">Experience</h1>
-        {experiences.map((exp, index) => {
-          return (
-            <div key={index}>
-              <ExperienceCard 
-                  dateRange={exp.dateRange} 
-                  positionName={exp.positionName} 
-                  description={exp.description} 
-                  company={exp.company} 
-                  technologies={exp.technologies} 
-              />
-            </div>
-          )
-        })}
+    <section id="experience" className="flex flex-col gap-8">
+      <h2 className="font-bold text-3xl section-label">Experience</h2>
+      <div className="flex flex-col gap-4">
+        {experiences.map((exp) => (
+          <ExperienceCard
+            key={`${exp.company}-${exp.positionName}`}
+            dateRange={exp.dateRange}
+            positionName={exp.positionName}
+            description={exp.description}
+            company={exp.company}
+            technologies={exp.technologies}
+          />
+        ))}
       </div>
-    </>
+    </section>
   );
 }
