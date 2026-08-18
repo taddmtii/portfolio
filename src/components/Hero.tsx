@@ -1,37 +1,19 @@
-import { Github, Linkedin } from "lucide-react";
-import { Typewriter } from "react-simple-typewriter";
+import { useTypewriter, Cursor } from "react-simple-typewriter";
 
 export function Hero() {
+
+  const [text] = useTypewriter({
+    words: ["Hello, I'm Tadd."],
+    loop: 1
+  })
+
   return (
-    <div className="flex flex-col items-center gap-7">
+    <div className="flex flex-col items-center gap-5">
+       <span className="md:text-lg gradient-text text-md">Software Engineer</span>
       <div className="flex items-center gap-7">
-        <div className="font-bold gradient-text md:text-5xl text-4xl">
-          <Typewriter
-            words={["Hi, I'm Tadd!"]}
-            cursor
-            typeSpeed={150}
-            cursorBlinking={true}
-          />
-        </div>
-      </div>
-      <div className="flex items-center gap-2 md:justify-start justify-center">
-        <p className="md:text-xl gradient-text text-md">Software Engineer</p>
-        <div>
-          <a target="_blank" href="https://github.com/taddmtii">
-            <button className="btn glass-card w-14 btn-ghost opacity-50 hover:bg-info">
-              <Github />
-            </button>
-          </a>
-        </div>
-        <div>
-          <a
-            target="_blank"
-            href="https://www.linkedin.com/in/tadd-trumbull-ii-7228a2300/"
-          >
-            <button className="btn w-14 btn-ghost opacity-50 hover:bg-info">
-              <Linkedin />
-            </button>
-          </a>
+        <div className="font-bold md:text-5xl text-4xl">
+          <span className="gradient-text">{text}</span>
+          <Cursor cursorColor="#60a5fa" cursorBlinking={true} />
         </div>
       </div>
       <div>
