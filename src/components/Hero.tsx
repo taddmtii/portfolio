@@ -5,12 +5,7 @@ export function Hero() {
   return (
     <div className="flex flex-col items-center gap-7">
       <div className="flex items-center gap-7">
-        {/*<div className="avatar">
-          <div className="ring-white ring-offset-base-100 md:w-24 w-20 rounded-full ring-2 ring-offset-2">
-            <img src={avatar} alt="My Picture" />
-          </div>
-        </div>*/}
-        <div className="font-bold md:text-5xl text-4xl">
+        <div className="font-bold gradient-text md:text-5xl text-4xl">
           <Typewriter
             words={["Hi, I'm Tadd!"]}
             cursor
@@ -20,10 +15,10 @@ export function Hero() {
         </div>
       </div>
       <div className="flex items-center gap-2 md:justify-start justify-center">
-        <p className="md:text-xl text-md opacity-50">Software Engineer</p>
+        <p className="md:text-xl gradient-text text-md">Software Engineer</p>
         <div>
           <a target="_blank" href="https://github.com/taddmtii">
-            <button className="btn w-14 btn-ghost opacity-50 hover:bg-info">
+            <button className="btn glass-card w-14 btn-ghost opacity-50 hover:bg-info">
               <Github />
             </button>
           </a>
