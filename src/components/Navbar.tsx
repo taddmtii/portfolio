@@ -9,7 +9,7 @@ const navLinks = [
 export default function Navbar() {
   return (
     <nav
-      className="sticky top-0 z-50 flex h-20 w-full items-center justify-between bg-black/80 px-6 md:px-10"
+      className="top-0 z-50 flex h-20 w-full items-center justify-between bg-black/80 px-6 md:px-10"
       id="home"
     >
       <a

@@ -56,7 +56,7 @@ export function Projects() {
     <>
       <div className="flex flex-col gap-8">
         <h1 className="font-bold text-3xl" id="projects">Projects</h1>
-        <div className="flex flex-col gap-4">
+        <div className="grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-2">
           {projects.map((project) => (
             <ProjectCard
               key={project.name}

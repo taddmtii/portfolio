@@ -16,7 +16,7 @@ export default function ProjectCard({
   inProgress,
 }: ProjectCardProps) {
   return (
-    <div className="rounded-2xl border border-white/10 bg-white/[0.03] p-6 transition-colors duration-200 hover:border-white/20 md:p-8">
+    <div className="h-full min-w-0 rounded-2xl border border-white/10 bg-white/[0.03] p-6 transition-colors duration-200 hover:border-white/20 md:p-8">
       <div className="flex flex-col gap-2">
         <div className="flex items-start justify-between gap-4">
           <h3 className="text-lg font-semibold text-white/90 md:text-xl">
