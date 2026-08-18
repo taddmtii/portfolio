@@ -4,7 +4,7 @@ export function Projects() {
   return (
     <>
       <div className="flex flex-col gap-8">
-        <h1 className="font-bold text-3xl">Projects</h1>
+        <h1 className="font-bold text-3xl" id="projects">Projects</h1>
         <div className="flex flex-col items-center md:flex-row gap-8 md:justify-evenly">
           <ProjectCard
             name="Soundprint"
