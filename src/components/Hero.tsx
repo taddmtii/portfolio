@@ -10,10 +10,10 @@ export function Hero() {
   return (
     <div className="flex justify-center items-center">
       <div className="flex flex-col items-center gap-5">
-        <span className="md:text-lg section-label text-md">Software Engineer</span>
+        <span className="md:text-lg text-md text-shadow-lg">Software Engineer</span>
         <div className="flex items-center gap-7">
           <div className="font-bold md:text-5xl text-4xl">
-            <span className="gradient-text">{text}</span>
+            <span className="text-shadow-lg">{text}</span>
             <Cursor cursorColor="#60a5fa" cursorBlinking={true} />
           </div>
         </div>
