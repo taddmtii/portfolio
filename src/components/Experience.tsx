@@ -4,7 +4,7 @@ export default function Experience() {
   return (
     <>
       <div className="flex flex-col gap-8">
-        <h1 className="font-bold text-3xl">Experience</h1>
+        <h1 className="font-bold text-3xl" id="experience">Experience</h1>
         <ExperienceCard
           dateRange="June 2026 - Present"
           positionName="Associate Software Engineer"

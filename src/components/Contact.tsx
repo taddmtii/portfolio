@@ -5,7 +5,7 @@ export default function Contact() {
   return (
     <>
       <div className="flex items-center flex-col gap-8">
-        <h1 className="font-bold text-3xl">Let's Connect</h1>
+        <h1 className="font-bold text-3xl" id="contact">Let's Connect</h1>
         <p className="max-w-xl text-center text-xl mx-auto opacity-50">
           I'm always interested in hearing about new opportunities,
           collaborations, or just chatting about tech.

@@ -3,10 +3,12 @@ import { Hero } from "./components/Hero";
 import Experience from "./components/Experience";
 import { Projects } from "./components/Projects";
 import Contact from "./components/Contact";
+import Navbar from "./components/Navbar";
 
 function App() {
   return (
     <>
+      <Navbar />
       <div className="flex w-full items-center justify-center">
         <div className="flex flex-col w-full max-w-5xl mx-auto px-8 py-20">
           <Hero />
