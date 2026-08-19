@@ -9,10 +9,10 @@ const navLinks = [
 export default function Navbar() {
   return (
     <nav
-      className="top-0 z-50 flex h-20 w-full items-center justify-center bg-black/80 px-6 md:px-10"
+      className="top-0 z-50 flex h-20 w-full items-center justify-center px-6 md:px-10"
       id="home"
     >
-      <div className="flex max-w-5xl w-full items-center justify-between bg-black/80 px-8">
+      <div className="flex max-w-5xl w-full items-center justify-between  px-8">
         <a
           href="#home"
           className="font-semibold text-white/90 transition-colors duration-200 hover:text-white"
