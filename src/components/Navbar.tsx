@@ -13,12 +13,11 @@ export default function Navbar() {
       id="home"
     >
       <div className="flex max-w-5xl w-full items-center justify-between  px-8">
-        <a
-          href="#home"
+        <span
           className="font-semibold text-white/90 transition-colors duration-200 hover:text-white"
         >
           Tadd Trumbull
-        </a>
+        </span>
 
         <div className="flex items-center gap-4">
           <div className="items-center gap-4 hidden sm:flex">
