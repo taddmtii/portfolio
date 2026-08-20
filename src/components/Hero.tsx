@@ -4,7 +4,8 @@ export function Hero() {
 
   const [text] = useTypewriter({
     words: ["Hello, I'm Tadd."],
-    loop: 1
+    loop: 1,
+    typeSpeed: 100
   })
 
   return (
