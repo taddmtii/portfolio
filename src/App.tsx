@@ -4,6 +4,7 @@ import Experience from "./components/Experience";
 import { Projects } from "./components/Projects";
 import Contact from "./components/Contact";
 import Navbar from "./components/Navbar";
+import Education from "./components/Education";
 
 function App() {
   return (
@@ -16,6 +17,8 @@ function App() {
           <Experience />
           <div className="divider my-10"></div>
           <Projects />
+          <div className="divider my-10"></div>
+          <Education />
           <div className="divider my-10"></div>
           <Contact />
         </div>
