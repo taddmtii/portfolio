@@ -1,13 +1,21 @@
 import ProjectCard from "./ProjectCard";
 
 const projects = [
+    {
+    name: "RunBench",
+    link: "https://github.com/taddmtii/RunBench",
+    description:
+      "Personal coding practice platform for solving algorithm problems in the browser",
+    technologies: ["React", "TypeScript", "Go"],
+    inProgress: true,
+  },
   {
     name: "Soundprint",
     link: "https://github.com/taddmtii/Soundprint",
     description:
       "A live insight dashboard for your Spotify listening stats.",
     technologies: ["React", "TypeScript", "PostgreSQL"],
-    inProgress: true,
+    inProgress: false,
   },
   {
     name: "Code Visualizer",
@@ -39,14 +47,6 @@ const projects = [
     description:
       "A 2D platformer passion project where you play as a Samurai.",
     technologies: ["Godot", "GDScript"],
-    inProgress: false,
-  },
-  {
-    name: "CareerConnector",
-    link: "https://github.com/taddmtii/CareerConnector",
-    description:
-      "Job listing web application. Create, view, and manage job postings with a user-friendly interface.",
-    technologies: ["C#", "SQLite", "ASP.NET"],
     inProgress: false,
   },
 ];
