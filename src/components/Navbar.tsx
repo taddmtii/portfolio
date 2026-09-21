@@ -8,33 +8,12 @@ const navLinks = [
 
 export default function Navbar() {
   return (
-    <nav
-      className="top-0 z-50 flex h-20 w-full items-center justify-center px-6 md:px-10"
-      id="home"
-    >
-      <div className="flex max-w-5xl w-full items-center justify-between  px-8">
-        <span
-          className="font-semibold text-white/90 transition-colors duration-200 hover:text-white"
-        >
-          Tadd Trumbull
-        </span>
-
-        <div className="flex items-center gap-4">
-          <div className="items-center gap-4 hidden sm:flex">
-            {navLinks.map((link) => (
-              <a
-                key={link.href}
-                href={link.href}
-                className="text-sm text-white/50 transition-colors duration-200 hover:text-[#60a5fa]"
-              >
-                {link.label}
-              </a>
-            ))}
-          </div>
-
-          <div className="h-5 w-px bg-white/15" aria-hidden="true" />
-
-          <div className="flex items-center gap-1">
+    <nav className="nav" id="home">
+      <a className="brand" href="#home"><span className="brand-mark">TT</span>Tadd Trumbull</a>
+      <div className="nav-links">
+        {navLinks.map((link) => <a key={link.href} href={link.href}>{link.label}</a>)}
+      </div>
+      <div className="nav-socials">
             <a
               href="https://github.com/taddmtii/"
               target="_blank"
@@ -53,8 +32,6 @@ export default function Navbar() {
             >
               <Linkedin size={18} />
             </a>
-          </div>
-        </div>
       </div>
     </nav>
   );

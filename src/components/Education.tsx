@@ -10,9 +10,14 @@ const educations = [
 
 export default function Education() {
   return (
-    <section id="experience" className="flex flex-col gap-8">
-      <h2 className="font-bold text-3xl">Education</h2>
-      <div className="flex flex-col gap-4">
+    <section id="education" className="section">
+      <div className="section-heading compact-heading">
+        <div>
+          <span className="section-kicker">03 / Education</span>
+          <h2>Education</h2>
+        </div>
+      </div>
+      <div>
         {educations.map((edu) => (
           <EducationCard
             key={`${edu.degree}`}

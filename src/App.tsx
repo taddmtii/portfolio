@@ -8,22 +8,16 @@ import Education from "./components/Education";
 
 function App() {
   return (
-    <>
+    <div className="site-shell">
       <Navbar />
-      <div className="flex w-full items-center justify-center">
-        <div className="flex flex-col w-full max-w-5xl mx-auto px-8 py-15">
-          <Hero />
-          <div className="divider my-10"></div>
-          <Experience />
-          <div className="divider my-10"></div>
-          <Projects />
-          <div className="divider my-10"></div>
-          <Education />
-          <div className="divider my-10"></div>
-          <Contact />
-        </div>
-      </div>
-    </>
+      <main>
+        <Hero />
+        <Experience />
+        <Projects />
+        <Education />
+        <Contact />
+      </main>
+    </div>
   );
 }
 

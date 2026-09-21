@@ -31,15 +31,8 @@ const contactLinks = [
 
 export default function Contact() {
   return (
-    <section id="contact" className="flex flex-col items-center gap-8">
-      <h2 className="font-bold text-3xl">Let's Connect</h2>
-
-      <p className="max-w-lg text-sm text-center text-white/50 md:text-base">
-        I'm always interested in hearing about new opportunities,
-        collaborations, or just chatting about tech.
-      </p>
-
-      <div className="flex gap-4">
+    <section id="contact" className="section contact-section">
+      <div className="contact"><div className="contact-inner"><div><h2>Let's work together.</h2><p>Have an idea or opportunity? I'd love to hear about it.</p></div><div className="contact-links">
         {contactLinks.map((link) => (
           <a
             key={link.label}
@@ -47,21 +40,13 @@ export default function Contact() {
             target={link.download ? undefined : "_blank"}
             rel={link.download ? undefined : "noopener noreferrer"}
             download={link.download}
-            className="group rounded-2xl border border-white/10 bg-white/[0.03] p-6 transition-colors duration-200 hover:border-white/20 md:p-8"
+            className="contact-link"
           >
-            <div className="flex items-center gap-4">
-              <link.icon
-                size={20}
-                className="shrink-0 text-white/40 transition-colors duration-200 group-hover:text-[#60a5fa]"
-              />
-            </div>
+            <link.icon size={20} />
           </a>
         ))}
-      </div>
-
-      <p className="text-sm text-white/40">
-        © 2026 Tadd Trumbull. Built with React and Tailwind CSS.
-      </p>
+      </div></div></div>
+      <footer className="footer"><span>© 2026 Tadd Trumbull</span><span>Built with React and Typescript</span></footer>
     </section>
   );
 }

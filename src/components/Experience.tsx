@@ -26,9 +26,14 @@ const experiences = [
 
 export default function Experience() {
   return (
-    <section id="experience" className="flex flex-col gap-8">
-      <h2 className="font-bold text-3xl">Experience</h2>
-      <div className="flex flex-col gap-4">
+    <section id="experience" className="section">
+      <div className="section-heading">
+        <div>
+          <span className="section-kicker">01 / Experience</span>
+          <h2>Making software<br />that matters.</h2>
+        </div>
+      </div>
+      <div className="experience-list">
         {experiences.map((exp) => (
           <ExperienceCard
             key={`${exp.company}-${exp.positionName}`}

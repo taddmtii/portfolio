@@ -53,13 +53,13 @@ const projects = [
 
 export function Projects() {
   return (
-    <>
-      <div className="flex flex-col gap-8">
-        <h1 className="font-bold text-3xl" id="projects">Projects</h1>
-        <div className="grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-2">
+    <section id="projects" className="section">
+      <div className="section-heading"><div><span className="section-kicker">02 / Projects</span><h2>Cool stuff<br />I have built.</h2></div></div>
+        <div className="projects-grid">
           {projects.map((project) => (
             <ProjectCard
               key={project.name}
+              index={projects.indexOf(project) + 1}
               name={project.name}
               link={project.link}
               description={project.description}
@@ -68,7 +68,6 @@ export function Projects() {
             />
           ))}
         </div>
-      </div>
-    </>
+    </section>
   );
 }
