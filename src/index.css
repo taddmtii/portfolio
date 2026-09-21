@@ -1,7 +1,18 @@
 @import "@fontsource-variable/inter";
+@import "tailwindcss";
 
-:root { font-family: "Inter Variable", Inter, system-ui, sans-serif; color: #f7f5ef; background: #101512; font-synthesis: none; text-rendering: optimizeLegibility; }
-* { box-sizing: border-box; }
-html { scroll-behavior: smooth; }
-body { margin: 0; min-width: 320px; }
-a { color: inherit; }
+@layer base {
+  :root {
+    font-family: "Inter Variable", Inter, system-ui, sans-serif;
+    color: #f2f4f8;
+    background: #17191f;
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+  }
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    min-width: 20rem;
+  }
+}

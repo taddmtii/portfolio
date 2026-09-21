@@ -1,7 +1,7 @@
 import ProjectCard from "./ProjectCard";
 
 const projects = [
-    {
+  {
     name: "RunBench",
     link: "https://github.com/taddmtii/RunBench",
     description:
@@ -12,8 +12,7 @@ const projects = [
   {
     name: "Soundprint",
     link: "https://github.com/taddmtii/Soundprint",
-    description:
-      "A live insight dashboard for your Spotify listening stats.",
+    description: "A live insight dashboard for your Spotify listening stats.",
     technologies: ["React", "TypeScript", "PostgreSQL"],
     inProgress: false,
   },
@@ -44,8 +43,7 @@ const projects = [
   {
     name: "Samurai Sprint",
     link: "https://github.com/taddmtii/Samurai-Sprint",
-    description:
-      "A 2D platformer passion project where you play as a Samurai.",
+    description: "A 2D platformer passion project where you play as a Samurai.",
     technologies: ["Godot", "GDScript"],
     inProgress: false,
   },
@@ -53,21 +51,24 @@ const projects = [
 
 export function Projects() {
   return (
-    <section id="projects" className="section">
-      <div className="section-heading"><div><span className="section-kicker">02 / Projects</span><h2>Cool stuff<br />I have built.</h2></div></div>
-        <div className="projects-grid">
-          {projects.map((project) => (
-            <ProjectCard
-              key={project.name}
-              index={projects.indexOf(project) + 1}
-              name={project.name}
-              link={project.link}
-              description={project.description}
-              technologies={project.technologies}
-              inProgress={project.inProgress}
-            />
-          ))}
-        </div>
+    <section
+      id="projects"
+      className="scroll-mt-5 border-t border-[#343a45] py-24 max-md:py-18"
+    >
+      <div className="mb-10 max-md:mb-8">
+        <span className="text-xs font-semibold tracking-[.13em] text-[#9dc5ff] uppercase">
+          02 / Projects
+        </span>
+        <h2 className="mt-2 text-[clamp(2rem,3.4vw,2.85rem)] leading-none tracking-[-.06em] text-[#f2f4f8]">
+          Cool stuff
+          <br />I have built.
+        </h2>
+      </div>
+      <div className="grid grid-cols-3 gap-3 max-md:grid-cols-1">
+        {projects.map((project, index) => (
+          <ProjectCard key={project.name} index={index + 1} {...project} />
+        ))}
+      </div>
     </section>
   );
 }
