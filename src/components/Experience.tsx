@@ -6,7 +6,7 @@ const experiences = [
     positionName: "Associate Software Engineer",
     description: "Developing and maintaining .NET APIs for quote software.",
     company: "Unum",
-    technologies: ["C#", ".NET", "AWS"],
+    technologies: ["C#", ".NET", "AWS", "SQL"],
   },
   {
     dateRange: "March 2025 - June 2026",
@@ -30,13 +30,13 @@ export default function Experience() {
   return (
     <section
       id="experience"
-      className="scroll-mt-5 border-t border-[#343a45] py-24 max-md:py-18"
+      className="border-t border-[#343a45] py-18 md:py-24"
     >
-      <div className="mb-10 max-md:mb-8">
-        <span className="text-xs font-semibold tracking-[.13em] text-[#9dc5ff] uppercase">
-          01 / Experience
+      <div className="mb-8 md:mb-10">
+        <span className="text-xs font-semibold text-[#9dc5ff]">
+          01 / EXPERIENCE
         </span>
-        <h2 className="mt-2 text-[clamp(2rem,3.4vw,2.85rem)] leading-none tracking-[-.06em] text-[#f2f4f8]">
+        <h2 className="mt-2 text-4xl font-semibold text-[#f2f4f8]">
           Making software
           <br />
           that matters.
