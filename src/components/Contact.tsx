@@ -19,20 +19,17 @@ const contactLinks = [
 
 export default function Contact() {
   return (
-    <section
-      id="contact"
-      className="scroll-mt-5 py-[94px] max-[720px]:py-[72px]"
-    >
-      <div className="mb-[38px] flex items-end justify-between gap-[35px] border-b border-[#343a45] pb-12 max-[720px]:flex-col max-[720px]:items-start max-[720px]:pb-[35px]">
+    <section id="contact" className="py-18 md:py-24">
+      <div className="mb-10 flex flex-col items-center gap-9 border-b border-[#343a45] pb-9 text-center md:flex-row md:items-end md:justify-between md:pb-12 md:text-left">
         <div>
-          <h2 className="text-[clamp(2.2rem,4vw,3.4rem)] leading-[.98] tracking-[-.065em] text-[#f2f4f8]">
-            Let's work together.
+          <h2 className="text-4xl font-semibold text-[#f2f4f8]">
+            Say hi.
           </h2>
-          <p className="mt-[15px] text-[14px] text-[#9da4af]">
-            Have an idea or opportunity? I'd love to hear about it.
+          <p className="mt-4 text-sm text-[#9da4af]">
+            I'm always up for a chat, collaboration, or a good idea.
           </p>
         </div>
-        <div className="flex flex-wrap justify-center gap-3 max-[720px]:w-full">
+        <div className="flex w-full flex-wrap justify-center gap-3 md:w-auto">
           {contactLinks.map((link) => (
             <a
               key={link.label}
@@ -41,14 +38,14 @@ export default function Contact() {
               rel={link.download ? undefined : "noopener noreferrer"}
               download={link.download}
               aria-label={link.label}
-              className="grid size-14 place-items-center rounded-[7px] border border-[#424a57] text-[#d8dde5] transition-colors hover:border-[#9dc5ff] hover:bg-[#202837] hover:text-[#9dc5ff]"
+              className="flex size-14 items-center justify-center rounded border border-[#424a57] text-[#d8dde5] hover:border-[#9dc5ff] hover:bg-[#202837] hover:text-[#9dc5ff]"
             >
               <link.icon size={20} />
             </a>
           ))}
         </div>
       </div>
-      <footer className="flex justify-between pb-[34px] text-[12px] text-[#7d8591] max-[720px]:flex-col max-[720px]:gap-2.5">
+      <footer className="flex flex-col items-center gap-2 pb-9 text-center text-xs text-[#7d8591] md:flex-row md:justify-between md:text-left">
         <span>© 2026 Tadd Trumbull</span>
         <span>Built with React and Typescript</span>
       </footer>
