@@ -9,7 +9,7 @@ function App() {
   return (
     <div className="min-h-screen bg-[#17191f]">
       <Navbar />
-      <main className="mx-auto w-[min(72.5rem,calc(100%_-_3rem))] max-md:w-[min(72.5rem,calc(100%_-_2rem))]">
+      <main className="mx-auto max-w-250 px-6 max-md:px-4">
         <Hero />
         <Experience />
         <Projects />
