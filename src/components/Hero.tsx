@@ -23,41 +23,38 @@ const skills = [
 
 export function Hero() {
   return (
-    <section className="grid min-h-[33.75rem] grid-cols-[1fr_17.125rem] items-center gap-12 py-19 pb-23 max-md:min-h-0 max-md:grid-cols-1 max-md:gap-12 max-md:py-19 max-md:pb-20">
+    <section className="flex min-h-dvh flex-col items-center justify-center gap-12 py-20 text-center md:min-h-135 md:flex-row md:justify-between md:text-left">
       <div>
-        <div className="flex items-center gap-2.5 text-xs font-semibold tracking-[.13em] text-[#9dc5ff] uppercase before:h-px before:w-6 before:bg-current before:content-['']">
-          Software engineer
+        <div className="flex items-center justify-center gap-2 text-xs font-semibold text-[#9dc5ff] md:justify-start">
+          SOFTWARE ENGINEER
         </div>
-        <h1 className="mt-5 mb-6 max-w-[45rem] text-[clamp(3.2rem,6vw,5.7rem)] font-[620] leading-[.98] tracking-[-.075em] text-[#f2f4f8]">
-          Building useful things for the{" "}
-          <em className="not-italic text-[#9dc5ff]">real world.</em>
+        <h1 className="my-6 max-w-180 text-6xl font-semibold text-[#f2f4f8]">
+          Building useful things for the {" "}
+          <span className="text-[#9dc5ff]">real world.</span>
         </h1>
-        <p className="max-w-[35.625rem] text-[1.0625rem] leading-[1.7] text-[#aeb4be] max-md:text-sm">
+        <p className="mx-auto max-w-135 text-sm text-[#aeb4be] md:mx-0 md:text-base">
           I'm Tadd, a full-stack developer who enjoys turning complicated
           systems into clear, thoughtful experiences.
         </p>
-        <div className="mt-8 flex flex-wrap gap-3">
+        <div className="mt-8 flex flex-wrap justify-center gap-3 md:justify-start">
           <a
             href="#projects"
-            className="inline-flex items-center gap-2 border border-[#9dc5ff] bg-[#9dc5ff] px-4 py-3 text-[13px] font-semibold text-[#152033] no-underline transition-colors hover:bg-[#b3d4ff]"
+            className="flex items-center gap-2 border border-[#9dc5ff] bg-[#9dc5ff] px-4 py-3 text-xs font-semibold text-[#152033] hover:bg-[#b3d4ff]"
           >
-            View projects <ArrowDownRight size={17} />
+            View projects <ArrowDownRight size={16} />
           </a>
           <a
             href={resume}
-            download="Tadds_Resume.pdf"
-            className="inline-flex items-center gap-2 border border-[#3b4351] px-4 py-3 text-[13px] font-semibold text-[#e9ecf1] no-underline transition-colors hover:border-[#687993] hover:bg-[#20242d]"
+            download="tadd_trumbull_resume.pdf"
+            className="flex items-center gap-2 border border-[#3b4351] px-4 py-3 text-xs font-semibold text-[#e9ecf1] hover:border-[#687993] hover:bg-[#20242d]"
           >
             <FileText size={16} /> Download resume
           </a>
         </div>
       </div>
-      <aside
-        aria-label="Core technologies"
-        className="self-center max-md:w-full max-md:max-w-[26.875rem]"
-      >
-        <span className="mb-3 block text-[.625rem] font-semibold tracking-[.1em] text-[#7f8793] uppercase">
-          Core stack
+      <aside className="w-full max-w-105 md:w-68 md:shrink-0">
+        <span className="mb-3 block text-xs font-semibold text-[#7f8793]">
+          CORE STACK
         </span>
         <div className="grid grid-cols-2 gap-2">
           {skills.map(({ label, icon }) => (
@@ -65,11 +62,7 @@ export function Hero() {
               className="flex min-h-11 items-center gap-2 border border-[#363d49] p-2 text-xs font-medium text-[#c0c6d0]"
               key={label}
             >
-              <img
-                src={icon}
-                alt=""
-                className="size-[1.125rem] object-contain"
-              />
+              <img src={icon} className="size-4" />
               <span>{label}</span>
             </div>
           ))}
