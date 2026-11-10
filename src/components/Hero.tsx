@@ -1,5 +1,6 @@
 import { ArrowDownRight, FileText } from "lucide-react";
 import resume from "../assets/tadd_trumbull_resume.pdf";
+import awsIcon from "../assets/aws.svg";
 
 const skills = [
   {
@@ -15,7 +16,7 @@ const skills = [
   { label: "Docker", icon: "https://cdn.simpleicons.org/docker/2496ED" },
   {
     label: "AWS",
-    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/amazonwebservices/amazonwebservices-original-wordmark.svg",
+    icon: awsIcon,
   },
   { label: "React", icon: "https://cdn.simpleicons.org/react/61DAFB" },
   { label: ".NET", icon: "https://cdn.simpleicons.org/dotnet/512BD4" },
