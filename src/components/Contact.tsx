@@ -38,7 +38,7 @@ export default function Contact() {
               rel={link.download ? undefined : "noopener noreferrer"}
               download={link.download}
               aria-label={link.label}
-              className="flex size-14 items-center justify-center rounded border border-[#424a57] text-[#d8dde5] hover:border-[#9dc5ff] hover:bg-[#202837] hover:text-[#9dc5ff]"
+              className="flex size-14 items-center justify-center rounded border border-[#424a57] text-[#d8dde5] transition-colors duration-200 hover:border-blue-300/40 hover:bg-blue-300/5 hover:text-blue-300 motion-reduce:transition-none"
             >
               <link.icon size={20} />
             </a>
