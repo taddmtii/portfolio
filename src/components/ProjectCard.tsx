@@ -21,7 +21,7 @@ export default function ProjectCard({
     <a
       href={link}
       target="_blank"
-      className="flex min-h-55 flex-col justify-between gap-6 border border-[#363d49] bg-[#1b1e25] p-5 hover:border-[#5677a4] hover:bg-[#1e222b]"
+      className="flex min-h-55 flex-col justify-between gap-6 border border-[#363d49] p-5 transition-colors duration-200 hover:border-blue-300/40 hover:bg-blue-300/5 motion-reduce:transition-none"
     >
       <div className="flex items-start justify-between">
         <span className="text-xs text-[#77808e]">0{index}</span>

@@ -7,7 +7,7 @@ const projects = [
     description:
       "Personal coding practice platform for solving algorithm problems in the browser",
     technologies: ["React", "TypeScript", "Go"],
-    inProgress: true,
+    inProgress: false,
   },
   {
     name: "Soundprint",

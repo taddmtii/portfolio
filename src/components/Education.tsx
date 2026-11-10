@@ -14,7 +14,7 @@ export default function Education() {
       id="education"
       className="border-t border-[#343a45] py-18 md:py-24"
     >
-      <div className="mb-6">
+      <div className="mb-8 md:mb-10">
         <span className="text-xs font-semibold text-[#9dc5ff]">
           03 / EDUCATION
         </span>

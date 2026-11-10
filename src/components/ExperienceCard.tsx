@@ -1,8 +1,11 @@
+import { MapPin } from "lucide-react";
+
 interface ExperienceCardProps {
   dateRange: string;
   positionName: string;
   description: string;
   company: string;
+  location: string;
   technologies: string[];
 }
 
@@ -11,11 +14,12 @@ export default function ExperienceCard({
   positionName,
   description,
   company,
+  location,
   technologies,
 }: ExperienceCardProps) {
   return (
-  <div className="flex flex-col gap-3 border-t border-[#343a45] py-7 md:flex-row md:gap-7">
-    <span className="text-xs text-[#7f8793] md:w-40 ">
+  <article className="flex flex-col gap-3 border-t border-[#343a45] px-4 py-7 transition-colors duration-200 hover:border-blue-300/40 hover:bg-blue-300/5 motion-reduce:transition-none md:flex-row md:gap-7 md:px-6">
+    <span className="shrink-0 text-xs text-[#7f8793] md:w-40">
       {dateRange}
     </span>
     <div>
@@ -25,6 +29,10 @@ export default function ExperienceCard({
           / {company}
         </span>
       </h3>
+      <p className="mt-2 flex items-center gap-2 text-xs text-[#7f8793]">
+        <MapPin className="size-3 shrink-0" aria-hidden="true" />
+        {location}
+      </p>
       <p className="mt-3 mb-4 max-w-170 text-sm text-[#a8afba]">
         {description}
       </p>
@@ -39,6 +47,6 @@ export default function ExperienceCard({
         ))}
       </div>
     </div>
-  </div>
+  </article>
   );
 }

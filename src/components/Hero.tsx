@@ -40,14 +40,14 @@ export function Hero() {
         <div className="mt-8 flex flex-wrap justify-center gap-3 md:justify-start">
           <a
             href="#projects"
-            className="flex items-center gap-2 border border-[#9dc5ff] bg-[#9dc5ff] px-4 py-3 text-xs font-semibold text-[#152033] hover:bg-[#b3d4ff]"
+            className="flex items-center gap-2 border border-[#9dc5ff] bg-[#9dc5ff] px-4 py-3 text-xs font-semibold text-[#152033] transition-colors duration-200 hover:border-blue-200 hover:bg-blue-200 motion-reduce:transition-none"
           >
             View projects <ArrowDownRight size={16} />
           </a>
           <a
             href={resume}
             download="tadd_trumbull_resume.pdf"
-            className="flex items-center gap-2 border border-[#3b4351] px-4 py-3 text-xs font-semibold text-[#e9ecf1] hover:border-[#687993] hover:bg-[#20242d]"
+            className="flex items-center gap-2 border border-[#3b4351] px-4 py-3 text-xs font-semibold text-[#e9ecf1] transition-colors duration-200 hover:border-blue-300/40 hover:bg-blue-300/5 motion-reduce:transition-none"
           >
             <FileText size={16} /> Download resume
           </a>

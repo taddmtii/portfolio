@@ -6,6 +6,7 @@ const experiences = [
     positionName: "Associate Software Engineer",
     description: "Developing and maintaining .NET APIs for quote software.",
     company: "Unum",
+    location: "Chattanooga, TN",
     technologies: ["C#", ".NET", "AWS", "SQL"],
   },
   {
@@ -14,6 +15,7 @@ const experiences = [
     description:
       "Maintain and optimize financial platforms while developing automation solutions.",
     company: "Unum",
+    location: "Chattanooga, TN",
     technologies: ["Python", "SQL", "GraphQL"],
   },
   {
@@ -22,6 +24,7 @@ const experiences = [
     description:
       "Modernized internal academic platform by refactoring legacy tool.",
     company: "Southern Adventist University",
+    location: "Collegedale, TN",
     technologies: ["C#", ".NET", "SQL"],
   },
 ];
